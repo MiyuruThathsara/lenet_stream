@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Apr 11 01:59:38 2021
+# Process ID: 19812
+# Current directory: D:/Vivado/Vivado_Projects/Verilog Projects/lenet_stream/lenet_stream.runs/activation_bram_synth_1
+# Command line: vivado.exe -log activation_bram.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source activation_bram.tcl
+# Log file: D:/Vivado/Vivado_Projects/Verilog Projects/lenet_stream/lenet_stream.runs/activation_bram_synth_1/activation_bram.vds
+# Journal file: D:/Vivado/Vivado_Projects/Verilog Projects/lenet_stream/lenet_stream.runs/activation_bram_synth_1\vivado.jou
+#-----------------------------------------------------------
+source activation_bram.tcl -notrace

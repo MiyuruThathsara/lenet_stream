@@ -1,0 +1,497 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Vivado/Vivado_Projects/Verilog Projects/lenet_stream/lenet_stream.sim/sim_1/behav/modelsim
+T_opt
+!s110 1619383869
+VP8cz=@QAHe;[j=V^j9f4e2
+04 16 4 work line_buf_conv_tb fast 0
+04 4 4 work glbl fast 0
+=1-b42e99c2cd9a-6085d63c-3aa-41cc
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7;67
+vaccelerator_top
+!s10a 1618690998
+Z2 !s110 1619382979
+!i10b 1
+!s100 eXde=HIZ=`XZ^BSU>;;FJ2
+I:iZR=a]Bg]MnKiQa@1V>A1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1618690998
+8../../../../lenet_stream.srcs/sources_1/imports/src/accelerator_top.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/accelerator_top.v
+Z4 F../../../../lenet_stream.srcs/sources_1/imports/src/params.vh
+Z5 L0 15
+Z6 OL;L;10.7;67
+r1
+!s85 0
+31
+Z7 !s108 1619382979.000000
+Z8 !s107 ../../../../lenet_stream.srcs/sources_1/imports/src/../../../sources_1/imports/src/params.vh|../../../../lenet_stream.srcs/sources_1/imports/src/params.vh |../../../../lenet_stream.srcs/sources_1/imports/src/params.vh|../../../../lenet_stream.srcs/sim_1/imports/sim/line_buf_conv_tb.v|../../../../lenet_stream.srcs/sources_1/imports/src/weights_kernel.v|../../../../lenet_stream.srcs/sources_1/imports/src/relu.v|../../../../lenet_stream.srcs/sources_1/imports/src/maxpool.v|../../../../lenet_stream.srcs/sources_1/imports/src/lineBuffer.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc2_weights.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc2_bias.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc2.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc1_weights.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc1_bias.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc1.v|../../../../lenet_stream.srcs/sources_1/imports/src/convolution.v|../../../../lenet_stream.srcs/sources_1/imports/src/conv3_bias.v|../../../../lenet_stream.srcs/sources_1/imports/src/conv2_bias.v|../../../../lenet_stream.srcs/sources_1/imports/src/conv1_bias.v|../../../../lenet_stream.srcs/sources_1/imports/src/addertree_25.v|../../../../lenet_stream.srcs/sources_1/imports/src/accumilator.v|../../../../lenet_stream.srcs/sources_1/imports/src/accelerator_top.v|../../../../lenet_stream.srcs/sources_1/ip/activation_bram/sim/activation_bram.v|
+Z9 !s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../lenet_stream.srcs/sources_1/imports/src|../../../../lenet_stream.srcs/sources_1/ip/activation_bram/sim/activation_bram.v|../../../../lenet_stream.srcs/sources_1/imports/src/accelerator_top.v|../../../../lenet_stream.srcs/sources_1/imports/src/accumilator.v|../../../../lenet_stream.srcs/sources_1/imports/src/addertree_25.v|../../../../lenet_stream.srcs/sources_1/imports/src/conv1_bias.v|../../../../lenet_stream.srcs/sources_1/imports/src/conv2_bias.v|../../../../lenet_stream.srcs/sources_1/imports/src/conv3_bias.v|../../../../lenet_stream.srcs/sources_1/imports/src/convolution.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc1.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc1_bias.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc1_weights.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc2.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc2_bias.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc2_weights.v|../../../../lenet_stream.srcs/sources_1/imports/src/lineBuffer.v|../../../../lenet_stream.srcs/sources_1/imports/src/maxpool.v|../../../../lenet_stream.srcs/sources_1/imports/src/relu.v|../../../../lenet_stream.srcs/sources_1/imports/src/weights_kernel.v|../../../../lenet_stream.srcs/sim_1/imports/sim/line_buf_conv_tb.v|
+!i113 0
+Z10 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -work xil_defaultlib +incdir+../../../../lenet_stream.srcs/sources_1/imports/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vaccumilator
+!s10a 1619258478
+R2
+!i10b 1
+!s100 ;kMaV9TBifb?FGgXkCd:z3
+IPcV<f9=Sz?4mPA[V5?fUP1
+R3
+R0
+w1619258478
+8../../../../lenet_stream.srcs/sources_1/imports/src/accumilator.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/accumilator.v
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vactivation_bram
+!s10a 1618086573
+R2
+!i10b 1
+!s100 L@cJL31F^12::?:23>8E?0
+I?`=fnglR@1AR>llQL<2`R1
+R3
+R0
+w1618086573
+8../../../../lenet_stream.srcs/sources_1/ip/activation_bram/sim/activation_bram.v
+F../../../../lenet_stream.srcs/sources_1/ip/activation_bram/sim/activation_bram.v
+L0 56
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vaddertree_25
+Z12 !s10a 1618671733
+R2
+!i10b 1
+!s100 :]knVai]FU;MgAGFZ1Sn:1
+IjCG1zAzVlmjU;YLnFg8ah0
+R3
+R0
+Z13 w1618671733
+8../../../../lenet_stream.srcs/sources_1/imports/src/addertree_25.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/addertree_25.v
+R4
+Z14 L0 14
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vconv1_bias
+!s10a 1618692344
+R2
+!i10b 1
+!s100 UX]lXnEnfb]jhEROe@<k42
+IYi:U=?miJnT?dZR2iN3LQ0
+R3
+R0
+w1618692344
+8../../../../lenet_stream.srcs/sources_1/imports/src/conv1_bias.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/conv1_bias.v
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vconv2_bias
+!s10a 1618692349
+R2
+!i10b 1
+!s100 eCKAEkP`a;doWLZ9aIdUm1
+INhJXQ7_dE32Gc;>]8T3k[1
+R3
+R0
+w1618692349
+8../../../../lenet_stream.srcs/sources_1/imports/src/conv2_bias.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/conv2_bias.v
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vconv3_bias
+!s10a 1618692355
+R2
+!i10b 1
+!s100 h28]D9_337R1UfmOJRVL=3
+IPRV]XFY<;BC2bLP?d1gK80
+R3
+R0
+w1618692355
+8../../../../lenet_stream.srcs/sources_1/imports/src/conv3_bias.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/conv3_bias.v
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vconvolution
+!s10a 1619249726
+R2
+!i10b 1
+!s100 >=doR8jHzb7NzQ`ZD5^Im1
+ILU^L7?E=LiY^GaKZHD_ea3
+R3
+R0
+w1619249726
+8../../../../lenet_stream.srcs/sources_1/imports/src/convolution.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/convolution.v
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vfc1
+!s10a 1619383585
+Z15 !s110 1619383631
+!i10b 1
+!s100 f9FK4YY8lXWLUkYajD[PA0
+IBTdLjG0@J[P8kCoEeHUE>2
+R3
+R0
+w1619383585
+8../../../../lenet_stream.srcs/sources_1/imports/src/fc1.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/fc1.v
+Z16 F../../../../lenet_stream.srcs/sources_1/imports/src/params.vh 
+R5
+R6
+r1
+!s85 0
+31
+Z17 !s108 1619383631.000000
+R8
+Z18 !s90 -reportprogress|300|-64|-incr|-work|xil_defaultlib|+incdir+../../../../lenet_stream.srcs/sources_1/imports/src|../../../../lenet_stream.srcs/sources_1/ip/activation_bram/sim/activation_bram.v|../../../../lenet_stream.srcs/sources_1/imports/src/accelerator_top.v|../../../../lenet_stream.srcs/sources_1/imports/src/accumilator.v|../../../../lenet_stream.srcs/sources_1/imports/src/addertree_25.v|../../../../lenet_stream.srcs/sources_1/imports/src/conv1_bias.v|../../../../lenet_stream.srcs/sources_1/imports/src/conv2_bias.v|../../../../lenet_stream.srcs/sources_1/imports/src/conv3_bias.v|../../../../lenet_stream.srcs/sources_1/imports/src/convolution.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc1.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc1_bias.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc1_weights.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc2.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc2_bias.v|../../../../lenet_stream.srcs/sources_1/imports/src/fc2_weights.v|../../../../lenet_stream.srcs/sources_1/imports/src/lineBuffer.v|../../../../lenet_stream.srcs/sources_1/imports/src/maxpool.v|../../../../lenet_stream.srcs/sources_1/imports/src/relu.v|../../../../lenet_stream.srcs/sources_1/imports/src/weights_kernel.v|../../../../lenet_stream.srcs/sim_1/imports/sim/line_buf_conv_tb.v|
+!i113 0
+R10
+R11
+R1
+vfc1_bias
+!s10a 1618692305
+R2
+!i10b 1
+!s100 FK6keRSkoa<?6j]IGXK2<0
+IMSe3If[jAmN[bW_GCc_UM1
+R3
+R0
+w1618692305
+8../../../../lenet_stream.srcs/sources_1/imports/src/fc1_bias.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/fc1_bias.v
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vfc1_weights
+!s10a 1619382566
+R2
+!i10b 1
+!s100 2Rc2^P56zma`EVg;18f^S2
+Il@k@DIg3jmPm`b73@EW270
+R3
+R0
+w1619382566
+8../../../../lenet_stream.srcs/sources_1/imports/src/fc1_weights.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/fc1_weights.v
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vfc2
+!s10a 1619383617
+R15
+!i10b 1
+!s100 f12jE7TGjfY0nL`2F^hLh3
+I`X^o17?MKeB_YjdGQIJmz0
+R3
+R0
+w1619383617
+8../../../../lenet_stream.srcs/sources_1/imports/src/fc2.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/fc2.v
+R16
+R5
+R6
+r1
+!s85 0
+31
+R17
+R8
+R18
+!i113 0
+R10
+R11
+R1
+vfc2_bias
+!s10a 1618692323
+R2
+!i10b 1
+!s100 :1_Bgb@RZCOE2cek_GhV43
+IQB<K5<LCYokFgnF@1WJJM0
+R3
+R0
+w1618692323
+8../../../../lenet_stream.srcs/sources_1/imports/src/fc2_bias.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/fc2_bias.v
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vfc2_weights
+!s10a 1619382633
+R2
+!i10b 1
+!s100 n4S_hc5ZzU5Ve3[@GPcP93
+IKN3L`Y6`ob`8Xmhg]>Rdm0
+R3
+R0
+w1619382633
+8../../../../lenet_stream.srcs/sources_1/imports/src/fc2_weights.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/fc2_weights.v
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vglbl
+!s110 1619383859
+!i10b 1
+!s100 7cd<?T0KPANS9PBoRj:BY2
+INdU5f[;Bb^Y=SUnL>A9=o3
+R3
+R0
+w1573089660
+8glbl.v
+Fglbl.v
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1619383859.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R10
+R1
+vline_buf_conv_tb
+!s10a 1619383835
+!s110 1619383844
+!i10b 1
+!s100 GP?hX^@zN[n9Sj?]@bFND2
+Ia@?^SPD;Cj>=EB55iPhll3
+R3
+R0
+w1619383835
+8../../../../lenet_stream.srcs/sim_1/imports/sim/line_buf_conv_tb.v
+F../../../../lenet_stream.srcs/sim_1/imports/sim/line_buf_conv_tb.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/../../../sources_1/imports/src/params.vh
+R5
+R6
+r1
+!s85 0
+31
+!s108 1619383844.000000
+R8
+R18
+!i113 0
+R10
+R11
+R1
+vlineBuffer
+R12
+R2
+!i10b 1
+!s100 1^U^:=5XXmdAOOgZ<NFO23
+IKWP39[5FLAaA:D5PWKOTS3
+R3
+R0
+R13
+8../../../../lenet_stream.srcs/sources_1/imports/src/lineBuffer.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/lineBuffer.v
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+nline@buffer
+vmaxpool
+R12
+R2
+!i10b 1
+!s100 WeD5GP_?C7eCZ468GbmL[2
+I^0RaB_60:_n4fihTZDTbn3
+R3
+R0
+R13
+8../../../../lenet_stream.srcs/sources_1/imports/src/maxpool.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/maxpool.v
+R4
+R14
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vrelu
+R12
+R2
+!i10b 1
+!s100 RdON2gh:^KhZH0zNm2[hZ0
+IGbALmCE8zD31Nh5z]HFZR3
+R3
+R0
+R13
+8../../../../lenet_stream.srcs/sources_1/imports/src/relu.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/relu.v
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vweights_kernel
+!s10a 1618692335
+R2
+!i10b 1
+!s100 MB6jhR[E6nQW]G98YC<9j0
+I@7l6bINPYo1N`oL00]F=60
+R3
+R0
+w1618692335
+8../../../../lenet_stream.srcs/sources_1/imports/src/weights_kernel.v
+F../../../../lenet_stream.srcs/sources_1/imports/src/weights_kernel.v
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1

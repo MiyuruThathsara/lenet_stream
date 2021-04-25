@@ -1,0 +1,487 @@
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {line_buf_conv_tb_simulate.do}
+# vsim -voptargs=""+acc"" -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.line_buf_conv_tb xil_defaultlib.glbl 
+# Start time: 02:21:08 on Apr 26,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.line_buf_conv_tb(fast)
+# Loading work.accelerator_top(fast)
+# Loading work.lineBuffer(fast)
+# Loading work.conv1_bias(fast)
+# Loading work.convolution(fast)
+# Loading work.weights_kernel(fast)
+# Loading work.addertree_25(fast)
+# Loading work.accumilator(fast)
+# Loading work.activation_bram(fast)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(fast)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(fast)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(fast)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(fast__1)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_output_reg_stage(fast)
+# Loading work.relu(fast__1)
+# Loading work.maxpool(fast)
+# Loading work.lineBuffer(fast__1)
+# Loading work.conv2_bias(fast)
+# Loading work.convolution(fast__1)
+# Loading work.weights_kernel(fast__1)
+# Loading work.addertree_25(fast__1)
+# Loading work.accumilator(fast__1)
+# Loading work.relu(fast__2)
+# Loading work.maxpool(fast__1)
+# Loading work.lineBuffer(fast__2)
+# Loading work.conv3_bias(fast)
+# Loading work.convolution(fast__2)
+# Loading work.weights_kernel(fast__2)
+# Loading work.addertree_25(fast__2)
+# Loading work.accumilator(fast__2)
+# Loading work.relu(fast__3)
+# Loading work.fc1_bias(fast)
+# Loading work.fc1(fast)
+# Loading work.fc1_weights(fast)
+# Loading work.relu(fast)
+# Loading work.fc2_bias(fast)
+# Loading work.fc2(fast)
+# Loading work.fc2_weights(fast)
+# Loading work.glbl(fast)
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk1[0].genblk1.convolution1.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk1[1].genblk1.convolution1.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk1[2].genblk1.convolution1.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk1[3].genblk1.convolution1.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk1[4].genblk1.convolution1.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk1[5].genblk1.convolution1.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk2[0].genblk1.convolution2.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk2[1].genblk1.convolution2.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk2[2].genblk1.convolution2.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk2[3].genblk1.convolution2.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk2[4].genblk1.convolution2.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk2[5].genblk1.convolution2.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk2[6].genblk1.convolution2.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk2[7].genblk1.convolution2.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk2[8].genblk1.convolution2.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk2[9].genblk1.convolution2.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk2[10].genblk1.convolution2.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk2[11].genblk1.convolution2.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk2[12].genblk1.convolution2.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk2[13].genblk1.convolution2.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk2[14].genblk1.convolution2.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk2[15].genblk1.convolution2.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[0].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[1].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[2].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[3].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[4].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[5].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[6].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[7].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[8].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[9].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[10].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[11].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[12].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[13].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[14].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[15].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[16].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[17].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[18].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[19].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[20].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[21].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[22].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[23].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[24].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[25].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[26].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[27].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[28].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[29].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[30].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[31].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[32].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[33].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[34].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[35].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[36].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[37].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[38].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[39].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[40].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[41].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[42].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[43].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[44].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[45].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[46].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[47].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[48].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[49].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[50].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[51].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[52].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[53].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[54].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[55].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[56].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[57].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[58].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[59].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[60].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[61].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[62].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[63].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[64].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[65].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[66].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[67].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[68].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[69].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[70].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[71].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[72].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[73].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[74].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[75].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[76].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[77].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[78].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[79].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[80].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[81].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[82].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[83].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[84].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[85].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[86].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[87].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[88].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[89].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[90].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[91].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[92].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[93].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[94].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[95].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[96].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[97].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[98].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[99].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[100].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[101].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[102].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[103].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[104].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[105].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[106].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[107].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[108].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[109].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[110].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[111].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[112].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[113].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[114].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[115].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[116].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[117].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[118].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module line_buf_conv_tb.accelerator_top.genblk3[119].genblk1.convolution3.accumilator.activation_bram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.

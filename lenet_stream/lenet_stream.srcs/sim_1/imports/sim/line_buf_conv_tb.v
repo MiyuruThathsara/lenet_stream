@@ -1,0 +1,88 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: University of Moratuwa, Sri Lanka
+// Author: Miyuru Thathsara
+// 
+// Create Date: 04/07/2021 07:20:00 PM
+// Design Name: Line Buffer Convolution tb
+// Module Name: line_buf_conv_tb
+// Project Name: Lenet Streaming Architecture
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module line_buf_conv_tb();
+//////////////////////////////////////////////////////////////////////////////////
+// Parameters
+//////////////////////////////////////////////////////////////////////////////////
+`include "../../../sources_1/imports/src/params.vh"
+parameter DEPTH_OF_THE_KERNEL                                               = 1;
+//////////////////////////////////////////////////////////////////////////////////
+// Local parameters
+//////////////////////////////////////////////////////////////////////////////////
+localparam DATA_OUT_SIZE                                                    = KERNEL_SIZE * KERNEL_SIZE * FIXED_POINT_SIZE;
+localparam NUM_OF_ACTIVATIONS                                               = IMAGE_WIDTH * IMAGE_HEIGHT;
+localparam WEIGHT_IN_SIZE                                                   = KERNEL_SIZE * KERNEL_SIZE * FIXED_POINT_SIZE;
+//////////////////////////////////////////////////////////////////////////////////
+// I/O Configurations
+//////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////
+// Wires and Registers
+//////////////////////////////////////////////////////////////////////////////////
+reg                                                                         clk;
+reg                                                                         resetn;
+reg         [ FIXED_POINT_SIZE - 1 : 0 ]                                    dataIn;
+reg                                                                         dataValidIn;
+wire        [ FIXED_POINT_SIZE - 1 : 0 ]                                    dataOut;
+wire                                                                        dataValidOut;
+reg signed  [ FIXED_POINT_SIZE - 1 : 0 ]                                    image[ NUM_OF_ACTIVATIONS - 1 : 0 ];
+integer                                                                     i;
+//////////////////////////////////////////////////////////////////////////////////
+// Implementation
+//////////////////////////////////////////////////////////////////////////////////
+
+accelerator_top
+#(
+  .FIXED_POINT_SIZE(FIXED_POINT_SIZE),
+  .FIXED_POINT_FRACTION_SIZE(FIXED_POINT_FRACTION_SIZE),
+  .KERNEL_SIZE(KERNEL_SIZE),
+  .IMAGE_WIDTH(IMAGE_WIDTH),
+  .IMAGE_HEIGHT(IMAGE_HEIGHT)
+)
+accelerator_top(
+    .clk(clk),
+    .resetn(resetn),
+    .dataIn(dataIn),
+    .dataValidIn(dataValidIn),
+    .dataOut(dataOut),
+    .dataValidOut(dataValidOut)
+    );
+
+always #5 clk = ~clk;
+
+initial $readmemb("../../../../lenet_stream.srcs/sim_1/imports/sim/Image_Binary_2.txt", image);
+
+initial begin
+    #0;
+    clk                                                 = 1'b0;
+    resetn                                              = 1'b0;
+    dataValidIn                                         = 1'b0;
+    dataIn                                              = 1'b0;
+    #10;
+    resetn                                              = 1'b1;
+    #10;
+    resetn                                              = 1'b0;
+    #10;
+    resetn                                              = 1'b1;
+    #50;
+    for( i = 0; i < NUM_OF_ACTIVATIONS; i = i + 1'b1)begin
+        @(posedge clk);
+        dataValidIn                                     = 1'b1;
+        dataIn                                          = image[i];
+    end
+    @(posedge clk);
+    dataValidIn                                         = 1'b0;
+end
+endmodule
